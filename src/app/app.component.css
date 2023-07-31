@@ -1,0 +1,18 @@
+.row {
+    display: flex;
+    flex-wrap: wrap; /* Allow components to wrap to new lines */
+    }
+    
+    .component {
+    flex: 1;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    background-color:aqua; /* Add background color */
+    color: white; /* Add text color */
+    }
+    img{
+        height: 40px;
+    }

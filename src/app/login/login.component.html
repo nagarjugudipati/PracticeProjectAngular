@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="component blue" id="login" >login
+        <div class="container"  >
+            <h1>Login</h1>
+            <form class="login-form">
+              <label for="email">Email</label>
+              <input type="email" id="email" onkeyup="check1()" placeholder="user@gmail.com"  class="form-control" >
+              <span id="error2"></span>
+              
+              
+                <label for="email">Password</label>
+              <input type="password" id="password" onkeyup="check2()" placeholder="xyz" minlenght="5" maxlength="10" class="form-control" letters="a-z" letters="A-Z" specialcharacters="1">
+              <button type="submit">Login</button>
+            </form>
+          </div>
+    </div>
+</body>
+</html>
